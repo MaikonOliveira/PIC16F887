@@ -13,14 +13,16 @@ const unsigned char disp[10] = {//pgfedcba
                           0b01111111, // digito 8
                           0b01100111, // digito 9
                          };
-void main(){
+void main()
+{
    int m=0, c=0, d=0, u=0;
    int16_t cont=0;
    
    set_tris_d(0x00);
    set_tris_b(0x0f);
    
-   while(TRUE){
+   while(TRUE)
+   {
    
      m=(cont/1000); 
      c=((cont%1000)/100); 
