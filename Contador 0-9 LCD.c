@@ -1,5 +1,5 @@
 //Contador 0-9 utilizando o lcd no proteus
-//Foram utilizadas 2 bibliotecas criadas para o display e para os registradores SFR do PIC16F887.
+//Foram utilizadas 2 bibliotecas(display.h e regs_887.h) criadas para o display e para os registradores SFR do PIC16F887.
 //Desenvolvido por Maikon Oliveira
 
 #include <16f887.h>
